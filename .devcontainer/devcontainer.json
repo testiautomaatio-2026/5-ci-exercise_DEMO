@@ -1,0 +1,11 @@
+{
+	"name": "CI exercise demos",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"d-biehl.robotcode",
+				"bruno-api-client.bruno"
+			]
+		}
+	}
+}
