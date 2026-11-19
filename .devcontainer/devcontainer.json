@@ -4,8 +4,10 @@
 		"vscode": {
 			"extensions": [
 				"d-biehl.robotcode",
-				"bruno-api-client.bruno"
+				"bruno-api-client.bruno",
+				"vitest.explorer"
 			]
 		}
-	}
+	},
+	"postCreateCommand": "pip install robotframework"
 }
