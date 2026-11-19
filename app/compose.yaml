@@ -1,0 +1,10 @@
+services:
+  app:
+    build: ./
+    ports:
+      - "3000:3000"
+    environment:
+      APP_LOG_PATH: /logs/app.log
+      GITHUB_ACTIONS: "${GITHUB_ACTIONS:-false}"
+    volumes:
+      - ./logs/:/logs/
